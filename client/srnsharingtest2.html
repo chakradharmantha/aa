@@ -1,0 +1,21 @@
+<html>
+<body>
+<link rel="chrome-webstore-item" href="chrome.google.com/webstore/detail/nlfbmbojpeacfghkpbjhddihlkkiljbi">
+  <div id="camera"></div><div id="screen"></div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+
+  
+<button onclick="chrome.webstore.install()" id="install-button">Add to Chrome</button>
+  
+  <script type="text/javascript">
+
+if (chrome.app.isInstalled) {
+  document.getElementById('install-button').style.display = 'none';
+}
+
+  
+  </script>
+</body>
+</html>
